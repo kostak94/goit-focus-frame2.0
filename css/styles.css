@@ -16,7 +16,7 @@ img {
 }
 
 .header-hero-wrapper {
-  background-image: url(/images/dashed-bg.png);
+  background-image: url(../images/dashed-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -219,7 +219,7 @@ img {
   text-transform: uppercase;
   flex-shrink: 0;
   margin: 0;
-  padding: 20px 40px;
+  padding: 20px 37px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: advertisementTitle;
