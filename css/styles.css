@@ -140,11 +140,11 @@ img {
 }
 
 .students-photo-item.second {
-  left: -12px;
+  margin-left: -12px;
   z-index: 2;
 }
 .students-photo-item.third {
-  left: -24px;
+  margin-left: -12px;
 }
 .our-students-container {
   display: flex;
@@ -199,4 +199,52 @@ img {
 .hero-main-img {
   max-width: 259px;
   height: 314px;
+}
+
+/* Advertisement section */
+.section.advertisement {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container.advertisement {
+  /* padding: 20px 0; */
+  overflow: hidden;
+}
+.advertisement-title {
+  color: #bea69e;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px 30px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: advertisementTitle;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.advertisement-title-inner {
+  display: flex;
+}
+
+@keyframes advertisementTitle {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+.advertisement-title-span {
+  color: #fff;
+}
+
+/* About Us */
+.section.about-us {
+  height: 200px;
 }
