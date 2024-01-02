@@ -20,7 +20,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
-  /* padding: 0; */
 }
 
 /* Header */
@@ -219,7 +218,7 @@ img {
   text-transform: uppercase;
   flex-shrink: 0;
   margin: 0;
-  padding: 20px 37px;
+  padding: 20px 5px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: advertisementTitle;
