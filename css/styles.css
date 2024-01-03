@@ -450,7 +450,7 @@ img {
   border: none;
   padding: 14px 0;
   margin-bottom: 20px;
-  transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sign-up-btn:hover, .sign-up-btn:focus, .sign-up-btn:active{
   background-color: #1d1d1d;
@@ -470,4 +470,13 @@ img {
   font-weight: 400;
   line-height: 16px;
   text-decoration-line: underline;
+}
+
+/* Reviews */
+
+.reviews-title{
+font-size: 28px;
+font-weight: 500;
+line-height: 32px; /* 114.286% */
+letter-spacing: -1.12px;
 }
