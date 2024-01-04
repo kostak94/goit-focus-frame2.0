@@ -30,7 +30,7 @@
         <div class="container header">
           <nav class="nav-header">
             <div class="nav-logo-container">
-              <svg class="nav-logo-icon" width="127" height="20">
+              <svg class="logo-icon">
                 <use href="./images/icons.svg#icon-logo"></use>
               </svg>
             </div>
@@ -370,18 +370,225 @@
           <ul class="reviews-list">
             <li class="review-item">
               <div class="reviewer-container">
-                <div class="reviewer-photo">
-                  <img src="./images/reviewer1.jpg" alt="">
+                <div class="reviewer-photo-container">
+                  <img
+                    src="./images/reviewer1.jpg"
+                    alt="reviewer-photo"
+                    srcset="
+                      ./images/reviewer1.jpg    1x,
+                      ./images/reviewer1@2x.jpg 2x
+                    "
+                  />
                 </div>
-                <div class="reviewer-info"></div>
+                <div class="reviewer-info">
+                  <div class="reviewer-name-container">
+                    <h3 class="reviewer-name">Abraham Baker</h3>
+                    <p class="reviewer-profession">Student</p>
+                  </div>
+                  <div class="review-rate-icons-container">
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star2"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <p class="review-text">
+                I am very pleased that I decided to enroll in photography
+                school. The teachers turned out to be very talented and
+                experienced professionals who share their knowledge and are
+                dedicated to their work. I was able to expand my skills and
+                discover my own style.
+              </p>
+            </li>
+            <li class="review-item">
+              <div class="reviewer-container">
+                <div class="reviewer-photo-container">
+                  <img
+                    src="./images/reviewer2.jpg"
+                    alt="reviewer-photo"
+                    srcset="
+                      ./images/reviewer2.jpg    1x,
+                      ./images/reviewer2@2x.jpg 2x
+                    "
+                  />
+                </div>
+                <div class="reviewer-info">
+                  <div class="reviewer-name-container">
+                    <h3 class="reviewer-name">Amanda Lowery</h3>
+                    <p class="reviewer-profession">Student</p>
+                  </div>
+                  <div class="review-rate-icons-container">
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star1"></use>
+                      </svg>
+                    </div>
+                    <div class="review-icon-container">
+                      <svg class="review-icon">
+                        <use href="./images/icons.svg#icon-star2"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="review-text">
+                The courses at the photography school exceeded all my
+                expectations. I gained not only technical knowledge, but also
+                inspiration and motivation to reach new heights in my
+                creativity. Hands-on classes and workshops helped me understand
+                different styles of photography.
+              </p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="section footer">
-      <div class="container"></div>
+      <div class="container footer">
+        <div class="footer-main-content-wrapper">
+          <div class="logo-and-contacts-container">
+            <div class="footer-logo-container">
+              <svg class="logo-icon">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+            </div>
+            <address class="footer-contacts-container">
+              <ul class="footer-contacts-list">
+                <li>
+                  <a href="tel:+380665438912" class="footer-contact-item"
+                    >UK: +38 066 543 8912</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/d/viewer?mid=1OZLPSLkI8tD6tonJCQ_T6_0Cbc4&hl=en&ll=50.45327913169775%2C30.521509451174715&z=10"
+                    class="footer-contact-item"
+                    >Ukraine, Kyiv</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-lists-container">
+            <ul class="social-media-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/goitclub/"
+                  class="social-media-link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/goITclub/"
+                  class="social-media-link"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/GoIT"
+                  class="social-media-link"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+            <ul class="page-nav-list">
+              <li><a href="" class="page-nav-link">About us</a></li>
+              <li><a href="" class="page-nav-link">Our courses</a></li>
+              <li><a href="" class="page-nav-link">Our mentors</a></li>
+              <li><a href="" class="page-nav-link">Reviews</a></li>
+              <li><a href="" class="page-nav-link">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="footer-form-container">
+            <form class="footer-form">
+              <input
+                type="email"
+                class="footer-email-input"
+                name="user-email"
+                placeholder="Enter your email"
+                pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                title="Invalid email address"
+              />
+              <button type="submit" class="footer-btn">Go</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-subcontent-wrapper">
+          <div class="privacy-policy-container">
+            <a href="" class="footer-privacy-policy-link">Privacy Policy</a>
+            <a href="" class="footer-agreement-link"
+              >Public Offering Agreement</a
+            >
+          </div>
+          <div class="rights-container">
+            <p class="footer-focus-frame">2023 Focus Frame</p>
+            <p class="footer-rights-reserved">© All rights reserved</p>
+          </div>
+        </div>
+      </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal-container">
+        <button type="button" class="close-btn">
+          <svg class="close-btn-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-x"></use>
+          </svg>
+        </button>
+        <ul class="modal-nav-list">
+          <li><a href="" class="modal-nav-link">About us</a></li>
+          <li><a href="" class="modal-nav-link">Our courses</a></li>
+          <li><a href="" class="modal-nav-link">Our mentors</a></li>
+          <li><a href="" class="modal-nav-link">Reviews</a></li>
+          <li><a href="" class="modal-nav-link">Contacts</a></li>
+        </ul>
+        <div class="modal-img-container">
+          <img
+            src="./images/menu-img.jpg"
+            alt="modal-image"
+            class="modal-img"
+            srcset="./images/menu-img.jpg 1x, ./images/menu-img@2x.jpg 2x"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
