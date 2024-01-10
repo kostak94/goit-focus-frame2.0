@@ -43,9 +43,12 @@
             </ul>
             <div class="nav-icons-container">
               <div class="nav-camera-container">
-                <svg class="nav-camera-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-bi_camera-fill"></use>
-                </svg>
+                <a href="#sign-up"
+                  ><svg class="nav-camera-icon" width="16" height="16">
+                    <use
+                      href="./images/icons.svg#icon-bi_camera-fill"
+                    ></use></svg
+                ></a>
               </div>
               <div class="nav-burger-container">
                 <svg class="nav-burger-icon" width="32" height="22">
@@ -54,7 +57,7 @@
               </div>
             </div>
           </nav>
-          <button class="sign-up-header-btn">Sign up</button>
+          <a href="#sign-up" class="sign-up-header-link">Sign up</a>
         </div>
       </header>
 
@@ -166,11 +169,30 @@
           <div class="about-us-content-wrapper">
             <div class="about-us-photo-container">
               <img
+                class="about-us-photo"
                 src="./images/about-us-img.jpg"
                 alt="about-us-photo"
                 srcset="
                   ./images/about-us-img.jpg    1x,
                   ./images/about-us-img@2x.jpg 2x
+                "
+              />
+              <img
+                class="about-us-photo-tablet"
+                src="./images/about-us-img-tablet.png"
+                alt="about-us-photo"
+                srcset="
+                  ./images/about-us-img-tablet.png    1x,
+                  ./images/about-us-img-tablet@2x.png 2x
+                "
+              />
+              <img
+                class="about-us-photo-desktop"
+                src="./images/about-us-img-desktop.png"
+                alt="about-us-photo"
+                srcset="
+                  ./images/about-us-img-desktop.png    1x,
+                  ./images/about-us-img-desktop@2x.png 2x
                 "
               />
             </div>
@@ -198,14 +220,17 @@
       </section>
       <section class="section our-courses">
         <div class="container our-courses">
-          <h2 class="our-courses-title">
-            Our <span class="title-second-color">Courses</span>
-          </h2>
-          <p class="our-courses-text">
-            At our photography school, we offer a variety of courses that cover
-            all aspects of this fascinating art. Regardless of your experience
-            or skill level, we have courses to suit your needs and goals.
-          </p>
+          <div class="title-info-container">
+            <h2 class="our-courses-title">
+              Our <span class="title-second-color">Courses</span>
+            </h2>
+            <p class="our-courses-text">
+              At our photography school, we offer a variety of courses that
+              cover all aspects of this fascinating art. Regardless of your
+              experience or skill level, we have courses to suit your needs and
+              goals.
+            </p>
+          </div>
           <ol class="courses-list">
             <li class="courses-list-item">
               <div class="cours-number-container">
@@ -316,7 +341,7 @@
           </ul>
         </div>
       </section>
-      <section class="section sign-up">
+      <section class="section sign-up" id="sign-up">
         <div class="container sign-up">
           <div class="form-container">
             <h2 class="sign-up-title">
@@ -357,10 +382,36 @@
               <button type="submit" class="sign-up-btn">Send</button>
               <p class="sign-up-privacy">
                 By clicking on “Send” button, you agree to our
-                <a href="" class="sign-up-privacy-link">Privacy Policy</a>, and
-                allow Promodo to use this information for marketing purposes.
+                <a href="" class="sign-up-privacy-link">Privacy Policy</a>,
+                <br />
+                and allow Promodo to use this information for marketing
+                purposes.
               </p>
             </form>
+          </div>
+          <div class="img-sign-up-container">
+            <div class="lens-img-container">
+              <img
+                class="sign-up-img"
+                src="./images/sign-up-img1.png"
+                alt="hero-main-img"
+                srcset="
+                  ./images/sign-up-img1.png    1x,
+                  ./images/sign-up-img1@2x.png 2x
+                "
+              />
+            </div>
+            <div class="camera-img-container">
+              <img
+                class="sign-up-img"
+                src="./images/sign-up-img2.png"
+                alt="hero-main-img"
+                srcset="
+                  ./images/sign-up-img2.png    1x,
+                  ./images/sign-up-img2@2x.png 2x
+                "
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -508,21 +559,21 @@
           </div>
           <div class="footer-lists-container">
             <ul class="social-media-list">
-              <li>
+              <li class="footer-lists-items">
                 <a
                   href="https://www.instagram.com/goitclub/"
                   class="social-media-link"
                   >Instagram</a
                 >
               </li>
-              <li>
+              <li class="footer-lists-items">
                 <a
                   href="https://www.facebook.com/goITclub/"
                   class="social-media-link"
                   >Facebook</a
                 >
               </li>
-              <li>
+              <li class="footer-lists-items">
                 <a
                   href="https://www.youtube.com/c/GoIT"
                   class="social-media-link"
@@ -531,11 +582,21 @@
               </li>
             </ul>
             <ul class="page-nav-list">
-              <li><a href="" class="page-nav-link">About us</a></li>
-              <li><a href="" class="page-nav-link">Our courses</a></li>
-              <li><a href="" class="page-nav-link">Our mentors</a></li>
-              <li><a href="" class="page-nav-link">Reviews</a></li>
-              <li><a href="" class="page-nav-link">Contacts</a></li>
+              <li class="footer-lists-items">
+                <a href="" class="page-nav-link">About us</a>
+              </li>
+              <li class="footer-lists-items">
+                <a href="" class="page-nav-link">Our courses</a>
+              </li>
+              <li class="footer-lists-items">
+                <a href="" class="page-nav-link">Our&nbsp;mentors</a>
+              </li>
+              <li class="footer-lists-items">
+                <a href="" class="page-nav-link">Reviews</a>
+              </li>
+              <li class="footer-lists-items">
+                <a href="" class="page-nav-link">Contacts</a>
+              </li>
             </ul>
           </div>
           <div class="footer-form-container">
@@ -566,7 +627,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal-container">
         <button type="button" class="close-btn">
           <svg class="close-btn-icon" width="32" height="32">
@@ -582,10 +643,10 @@
         </ul>
         <div class="modal-img-container">
           <img
-            src="./images/menu-img.jpg"
+            src="./images/Rectangle6.png"
             alt="modal-image"
             class="modal-img"
-            srcset="./images/menu-img.jpg 1x, ./images/menu-img@2x.jpg 2x"
+            srcset="./images/Rectangle6.png 1x, ./images/Rectangle6@2x.png 2x"
           />
         </div>
       </div>

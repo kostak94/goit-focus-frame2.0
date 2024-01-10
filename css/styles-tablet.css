@@ -1,0 +1,398 @@
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .container {
+    max-width: 704px;
+  }
+
+  .header-hero-wrapper {
+    background-image: url(../images/dashed-bg-tablet.png);
+  }
+
+  /* Header */
+  .section.header {
+    padding: 20px 32px 40px 32px;
+  }
+
+  .container.header {
+    width: 704px;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .nav-header {
+    padding: 16px 20px;
+  }
+
+  .logo-icon {
+    width: 123px;
+    height: 19px;
+  }
+
+  .nav-burger-container {
+    width: 40px;
+    height: 28px;
+  }
+
+  .nav-burger-icon {
+    width: 40px;
+    height: 28px;
+  }
+
+  .nav-camera-container {
+    display: none;
+  }
+
+  .sign-up-header-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    outline: transparent;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 16px 58px;
+    border: none;
+    border-radius: 12px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  /* Hero */
+  .section.hero {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 100px;
+  }
+
+  .container.hero {
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .main-hero-title {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+    max-width: 490px;
+  }
+
+  .hero-text {
+    margin-right: 200px;
+  }
+
+  .students-container {
+    margin-bottom: 40px;
+  }
+
+  .students-photos-container {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .students-img {
+    width: 54px;
+    height: 54px;
+  }
+
+  .our-students-container {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+
+  .our-students {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+  }
+
+  .our-students-icon-container {
+    display: flex;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    margin-bottom: 8px;
+  }
+
+  .reviews-number {
+    line-height: 20px;
+    letter-spacing: -0.64px;
+  }
+
+  .hero-main-img {
+    max-width: 393px;
+    height: 434px;
+  }
+
+  /* Advertisement */
+
+  .advertisement-title {
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.8px;
+  }
+
+  /* About us */
+
+  .about-us-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+
+  .about-us-text-container {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  .about-us-photo {
+    display: none;
+  }
+  .about-us-photo-tablet {
+    display: block;
+  }
+
+  .about-us-text {
+    max-width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+
+  /* Our courses */
+
+  .our-courses-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    margin-bottom: 0;
+  }
+
+  .our-courses-text {
+    max-width: 381px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 0;
+  }
+
+  .title-info-container {
+    display: flex;
+    gap: 58px;
+    margin-bottom: 50px;
+  }
+
+  .courses-list {
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .courses-list-item {
+    padding: 32px;
+    width: calc((100% - 20px) / 2);
+  }
+
+  .cours-number-container {
+    margin-bottom: 32px;
+  }
+
+  .cours-title {
+    margin-bottom: 180px;
+    max-width: 200px;
+  }
+
+  .cours-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+
+  /* Our mentors */
+  .our-mentors-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+
+  .our-mentors-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 93px;
+  }
+
+  .mentor-name {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14; /* 120% */
+    margin-bottom: 4px;
+  }
+
+  .mentor-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28; /* 133.333% */
+    letter-spacing: -0.24px;
+  }
+
+  /* Sign up */
+
+  .sign-up-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-text {
+    max-width: 480px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.28px;
+    margin-bottom: 40px;
+  }
+
+  .sign-up-input {
+    max-width: 480px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  .sign-up-input::placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    opacity: 0.7;
+  }
+  .sign-up-btn {
+    max-width: 480px;
+    padding: 16px 216px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+
+  .sign-up-privacy {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .sign-up-privacy-link {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  /* Reviews */
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+  .reviews-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .review-item {
+    max-width: 640px;
+  }
+  .reviewer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .reviewer-name {
+    line-height: 1.4;
+  }
+
+  .reviewer-profession {
+    font-size: 14px;
+    line-height: 1.28; /* 133.333% */
+  }
+
+  .review-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+
+  /* Footer */
+
+  .section.footer {
+    margin-top: 100px;
+    background-image: url(../images/footer-dashed-bg-tablet.png);
+  }
+
+  .container.footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .footer-main-content-wrapper {
+    display: flex;
+    margin-bottom: 74px;
+  }
+
+  .logo-and-contacts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 0;
+    margin-right: 58px;
+  }
+
+  .footer-lists-container {
+    gap: 25px;
+    margin-bottom: 0;
+    margin-right: 61px;
+  }
+
+  .footer-form {
+    margin-bottom: 0;
+  }
+
+  .footer-email-input {
+    max-width: 178px;
+  }
+
+  .footer-privacy-policy-link,
+  .footer-agreement-link,
+  .footer-focus-frame,
+  .footer-rights-reserved {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
