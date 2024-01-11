@@ -34,12 +34,16 @@
                 <use href="./images/icons.svg#icon-logo"></use>
               </svg>
             </div>
-            <ul class="nav-header-links">
-              <li><a href="">about us</a></li>
-              <li><a href="">our courses</a></li>
-              <li><a href="">our mentors</a></li>
-              <li><a href="">reviewes</a></li>
-              <li><a href="">contacts</a></li>
+            <ul class="nav-list">
+              <li><a class="nav-list-item" href="#about-us">about us</a></li>
+              <li>
+                <a class="nav-list-item" href="#our-courses">our courses</a>
+              </li>
+              <li>
+                <a class="nav-list-item" href="#our-mentors">our mentors</a>
+              </li>
+              <li><a class="nav-list-item" href="#reviews">reviews</a></li>
+              <li><a class="nav-list-item" href="#contacts">contacts</a></li>
             </ul>
             <div class="nav-icons-container">
               <div class="nav-camera-container">
@@ -62,84 +66,91 @@
       </header>
 
       <section class="section hero">
-        <div class="container hero">
-          <h1 class="main-hero-title">
-            Discover the magic of
-            <span class="hero-title-span">photography</span> in our school
-          </h1>
-          <p class="hero-text">
-            Our photography school offers an unforgettable journey, where you
-            can learn the basics of composition, master technical skills,
-            translate your unique ideas.
-          </p>
-          <div class="students-container">
-            <div class="students-photos-container">
-              <ul class="students-photos-list">
-                <li class="students-photo-item first">
-                  <img
-                    class="students-img"
-                    src="./images/student1.jpg"
-                    alt="student1"
-                    srcset="
-                      ./images/student1.jpg    1x,
-                      ./images/student1@2x.jpg 2x
-                    "
-                  />
-                </li>
-                <li class="students-photo-item second">
-                  <img
-                    class="students-img"
-                    src="./images/student2.jpg"
-                    alt="student1"
-                    srcset="
-                      ./images/student2.jpg    1x,
-                      ./images/student2@2x.jpg 2x
-                    "
-                  />
-                </li>
-                <li class="students-photo-item third">
-                  <img
-                    class="students-img"
-                    src="./images/student3.jpg"
-                    alt="student1"
-                    srcset="
-                      ./images/student3.jpg    1x,
-                      ./images/student3@2x.jpg 2x
-                    "
-                  />
-                </li>
-              </ul>
-              <div class="our-students-container">
-                <p class="our-students">
-                  Our happy <br />
-                  students
-                </p>
-                <div class="our-students-icon-container">
-                  <svg class="our-students-icon" width="18" height="8.6">
-                    <use href="./images/icons.svg#icon-Arrow2Stroke"></use>
-                  </svg>
+        <div class="container">
+          <div class="hero-box">
+            <div class="main-content-box">
+              <h1 class="main-hero-title">
+                Discover the magic of
+                <span class="hero-title-span">photography</span> in our school
+              </h1>
+              <p class="hero-text">
+                Our photography school offers an unforgettable journey, where
+                you can learn the basics of composition, master technical
+                skills, translate your unique ideas.
+              </p>
+              <div class="students-container">
+                <div class="students-photos-container">
+                  <ul class="students-photos-list">
+                    <li class="students-photo-item first">
+                      <img
+                        class="students-img"
+                        src="./images/student1.jpg"
+                        alt="student1"
+                        srcset="
+                          ./images/student1.jpg    1x,
+                          ./images/student1@2x.jpg 2x
+                        "
+                      />
+                    </li>
+                    <li class="students-photo-item second">
+                      <img
+                        class="students-img"
+                        src="./images/student2.jpg"
+                        alt="student1"
+                        srcset="
+                          ./images/student2.jpg    1x,
+                          ./images/student2@2x.jpg 2x
+                        "
+                      />
+                    </li>
+                    <li class="students-photo-item third">
+                      <img
+                        class="students-img"
+                        src="./images/student3.jpg"
+                        alt="student1"
+                        srcset="
+                          ./images/student3.jpg    1x,
+                          ./images/student3@2x.jpg 2x
+                        "
+                      />
+                    </li>
+                  </ul>
+                  <div class="our-students-container">
+                    <a href="#reviews" class="our-students">
+                      Our happy <br />
+                      students
+                    </a>
+                    <div class="our-students-icon-container">
+                      <svg class="our-students-icon" width="18" height="8.6">
+                        <use href="./images/icons.svg#icon-Arrow2Stroke"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="students-reviews-container">
+                  <div class="students-reviews-icon-container">
+                    <svg class="students-reviews-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                  </div>
+                  <div class="students-reviews-number">
+                    <p class="reviews-text">Reviews</p>
+                    <p class="reviews-number">+1500</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="students-reviews-container">
-              <div class="students-reviews-icon-container">
-                <svg class="students-reviews-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-Vector"></use>
-                </svg>
-              </div>
-              <div class="students-reviews-number">
-                <p class="reviews-text">Reviews</p>
-                <p class="reviews-number">+1500</p>
-              </div>
+            <div class="main-img-container">
+              <img
+                class="hero-main-img"
+                src="./images/photo-main.jpg"
+                alt="hero-main-img"
+                srcset="
+                  ./images/photo-main.jpg    1x,
+                  ./images/photo-main@2x.jpg 2x
+                "
+              />
             </div>
-          </div>
-          <div class="main-img-container">
-            <img
-              class="hero-main-img"
-              src="./images/photo-main.jpg"
-              alt="hero-main-img"
-              srcset="./images/photo-main.jpg 1x, ./images/photo-main@2x.jpg 2x"
-            />
           </div>
         </div>
       </section>
@@ -161,7 +172,7 @@
           </div>
         </div>
       </section>
-      <section class="section about-us">
+      <section class="section about-us" id="about-us">
         <div class="container about-us">
           <h2 class="about-us-title">
             About <span class="title-second-color">Us</span>
@@ -218,7 +229,7 @@
           </div>
         </div>
       </section>
-      <section class="section our-courses">
+      <section class="section our-courses" id="our-courses">
         <div class="container our-courses">
           <div class="title-info-container">
             <h2 class="our-courses-title">
@@ -235,13 +246,13 @@
             <li class="courses-list-item">
               <div class="cours-number-container">
                 <p class="cours-number">01</p>
-                <div class="cours-icon-container">
+                <a href="#sign-up" class="cours-icon-container">
                   <svg class="cours-icon" width="20" height="20">
                     <use
                       href="./images/icons.svg#icon-arrow-narrow-up-right"
                     ></use>
                   </svg>
-                </div>
+                </a>
               </div>
               <h3 class="cours-title">Basics of photography</h3>
               <p class="cours-text">
@@ -253,13 +264,13 @@
             <li class="courses-list-item">
               <div class="cours-number-container">
                 <p class="cours-number">02</p>
-                <div class="cours-icon-container">
+                <a href="#sign-up" class="cours-icon-container">
                   <svg class="cours-icon" width="20" height="20">
                     <use
                       href="./images/icons.svg#icon-arrow-narrow-up-right"
                     ></use>
                   </svg>
-                </div>
+                </a>
               </div>
               <h3 class="cours-title">Landscape photography</h3>
               <p class="cours-text">
@@ -271,13 +282,13 @@
             <li class="courses-list-item">
               <div class="cours-number-container">
                 <p class="cours-number">03</p>
-                <div class="cours-icon-container">
+                <a href="#sign-up" class="cours-icon-container">
                   <svg class="cours-icon" width="20" height="20">
                     <use
                       href="./images/icons.svg#icon-arrow-narrow-up-right"
                     ></use>
                   </svg>
-                </div>
+                </a>
               </div>
               <h3 class="cours-title">Portrait photography</h3>
               <p class="cours-text">
@@ -288,7 +299,7 @@
           </ol>
         </div>
       </section>
-      <section class="section our-mentors">
+      <section class="section our-mentors" id="our-mentors">
         <div class="container our-mentors">
           <h2 class="our-mentors-title">
             Our <span class="title-second-color">Mentors</span>
@@ -393,17 +404,13 @@
             <div class="lens-img-container">
               <img
                 class="sign-up-img"
-                src="./images/sign-up-img1.png"
+                src="./images/l.png"
                 alt="hero-main-img"
-                srcset="
-                  ./images/sign-up-img1.png    1x,
-                  ./images/sign-up-img1@2x.png 2x
-                "
               />
             </div>
             <div class="camera-img-container">
               <img
-                class="sign-up-img"
+                class="sign-up-img-camera"
                 src="./images/sign-up-img2.png"
                 alt="hero-main-img"
                 srcset="
@@ -415,7 +422,7 @@
           </div>
         </div>
       </section>
-      <section class="section reviews">
+      <section class="section reviews" id="reviews">
         <div class="container reviews">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
@@ -534,7 +541,7 @@
     <footer class="section footer">
       <div class="container footer">
         <div class="footer-main-content-wrapper">
-          <div class="logo-and-contacts-container">
+          <div class="logo-and-contacts-container" id="contacts">
             <div class="footer-logo-container">
               <svg class="logo-icon">
                 <use href="./images/icons.svg#icon-logo"></use>
@@ -583,16 +590,18 @@
             </ul>
             <ul class="page-nav-list">
               <li class="footer-lists-items">
-                <a href="" class="page-nav-link">About us</a>
+                <a href="#about-us" class="page-nav-link">About us</a>
               </li>
               <li class="footer-lists-items">
-                <a href="" class="page-nav-link">Our courses</a>
+                <a href="#our-courses" class="page-nav-link">Our courses</a>
               </li>
               <li class="footer-lists-items">
-                <a href="" class="page-nav-link">Our&nbsp;mentors</a>
+                <a href="#our-mentors" class="page-nav-link"
+                  >Our&nbsp;mentors</a
+                >
               </li>
               <li class="footer-lists-items">
-                <a href="" class="page-nav-link">Reviews</a>
+                <a href="#reviews" class="page-nav-link">Reviews</a>
               </li>
               <li class="footer-lists-items">
                 <a href="" class="page-nav-link">Contacts</a>
@@ -630,25 +639,18 @@
     <div class="modal-overlay">
       <div class="modal-container">
         <button type="button" class="close-btn">
-          <svg class="close-btn-icon" width="32" height="32">
+          <svg class="close-btn-icon">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
         </button>
         <ul class="modal-nav-list">
-          <li><a href="" class="modal-nav-link">About us</a></li>
-          <li><a href="" class="modal-nav-link">Our courses</a></li>
-          <li><a href="" class="modal-nav-link">Our mentors</a></li>
-          <li><a href="" class="modal-nav-link">Reviews</a></li>
+          <li><a href="#about-us" class="modal-nav-link">About us</a></li>
+          <li><a href="#our-courses" class="modal-nav-link">Our courses</a></li>
+          <li><a href="#our-mentors" class="modal-nav-link">Our mentors</a></li>
+          <li><a href="#reviews" class="modal-nav-link">Reviews</a></li>
           <li><a href="" class="modal-nav-link">Contacts</a></li>
         </ul>
-        <div class="modal-img-container">
-          <img
-            src="./images/Rectangle6.png"
-            alt="modal-image"
-            class="modal-img"
-            srcset="./images/Rectangle6.png 1x, ./images/Rectangle6@2x.png 2x"
-          />
-        </div>
+        <div class="modal-img-container"></div>
       </div>
     </div>
   </body>

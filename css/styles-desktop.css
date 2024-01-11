@@ -1,0 +1,234 @@
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-bottom: 150px;
+  }
+
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .header-hero-wrapper {
+    background-image: url(../images/dashed-bg-desktop.png);
+  }
+
+  /* Header */
+
+  .section.header {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .container.header {
+    gap: 20px;
+  }
+
+  .nav-header {
+    padding: 16px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-icons-container {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 28px;
+  }
+
+  .nav-list-item {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .sign-up-header-link {
+    padding: 16px 84px;
+  }
+
+  /* Hero */
+
+  .section.hero {
+    padding-bottom: 150px;
+  }
+
+  .hero-box {
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .main-content-box {
+    margin-bottom: 50px;
+  }
+
+  .main-hero-title {
+    font-size: 64px;
+    line-height: 1.06;
+    letter-spacing: -2.4px;
+    max-width: 563px;
+  }
+
+  .hero-text {
+    margin-bottom: 136px;
+  }
+
+  .students-container {
+    margin-bottom: 0;
+  }
+
+  .main-img-container {
+    padding-top: 23px;
+  }
+
+  .hero-main-img {
+    max-width: 397px;
+    height: 520px;
+  }
+
+  /* Advertisement */
+
+  .section.advertisement {
+    margin-bottom: 150px;
+  }
+
+  .advertisement-title {
+    font-size: 59px;
+    line-height: 1.006;
+    letter-spacing: -0.074;
+  }
+
+  /* About-us */
+
+  .about-us-content-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+
+  .about-us-text-container {
+    margin-top: 0;
+    gap: 20px;
+  }
+
+  .about-us-photo-tablet {
+    display: none;
+  }
+
+  .about-us-photo-desktop {
+    display: block;
+    width: 488px;
+  }
+
+  .about-us-text {
+    max-width: 267px;
+  }
+
+  /* Our courses */
+
+  .title-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    margin-bottom: 50px;
+  }
+  .our-courses-text {
+    max-width: 405px;
+  }
+
+  .courses-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+
+  /* Sign up */
+
+  .container.sign-up {
+    display: flex;
+    gap: 60px;
+  }
+
+  .img-sign-up-container {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    margin-bottom: 36px;
+  }
+
+  .sign-up-img {
+    width: 150px;
+    height: 142px;
+  }
+
+  .lens-img-container {
+    background-color: #bea69e;
+    border-radius: 1000px;
+    padding: 76px 19px 62px;
+    text-align: center;
+  }
+
+  .sign-up-img-camera {
+    width: 240px;
+    height: 296px;
+  }
+
+  .camera-img-container {
+    background-color: #1d1d1d;
+    border-radius: 1000px;
+    padding: 156px 50px 88px;
+  }
+
+  /* Reviews */
+
+  .section.reviews {
+    padding-bottom: 150px;
+  }
+
+  .reviews-list {
+    gap: 20px;
+  }
+
+  .review-item:nth-child(2) {
+    display: flex;
+  }
+
+  .review-item {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .reviews-text {
+    margin-bottom: 40px;
+  }
+
+  /* Footer */
+
+  .section.footer {
+    background-image: url(../images/footer-dashed-bg-desktop.png);
+  }
+
+  .logo-and-contacts-container {
+    margin-right: 285px;
+  }
+
+  .footer-lists-container {
+    gap: 50px;
+    margin-right: 137px;
+  }
+
+  .social-media-list,
+  .page-nav-list {
+    gap: 20px;
+  }
+
+  .footer-email-input {
+    max-width: 216px;
+  }
+}
