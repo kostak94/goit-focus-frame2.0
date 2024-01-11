@@ -80,8 +80,8 @@
   .main-hero-title {
     font-size: 60px;
     line-height: 64px;
-    letter-spacing: -2.4px;
-    max-width: 490px;
+    letter-spacing: -0.02em;
+    max-width: 517px;
   }
 
   .hero-text {
@@ -118,7 +118,7 @@
     display: flex;
   }
 
-  .reviews-text {
+  .reviews-txt {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.64px;

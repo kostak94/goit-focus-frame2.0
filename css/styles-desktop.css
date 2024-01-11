@@ -75,7 +75,7 @@
   .main-hero-title {
     font-size: 64px;
     line-height: 1.06;
-    letter-spacing: -2.4px;
+    letter-spacing: -0.01em;
     max-width: 563px;
   }
 
@@ -92,8 +92,12 @@
   }
 
   .hero-main-img {
-    max-width: 397px;
+    width: 397px;
     height: 520px;
+  }
+
+  .reviews-text {
+    margin-bottom: 8px;
   }
 
   /* Advertisement */
@@ -202,10 +206,6 @@
 
   .review-item {
     width: calc((100% - 20px) / 2);
-  }
-
-  .reviews-text {
-    margin-bottom: 40px;
   }
 
   /* Footer */
