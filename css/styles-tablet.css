@@ -64,6 +64,13 @@
     border-radius: 12px;
     white-space: nowrap;
     text-decoration: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sign-up-header-link:hover {
+    color: #bea69b;
+    background-color: #1d1d1d;
   }
 
   /* Hero */
